@@ -9,7 +9,6 @@ def mad_libs():
     action_verb = input("Give me an action verb: ")
     funny_exclamation = input("Give me a funny exclamation: ")
 
-    # Correcting spelling of 'story' and fixing variable name
     story = f'''
     Once upon a time, there was a person named {name} who lived in {place}. One day, they found a {funny_adj} {random_object} that belonged to a {animal}.
     The {animal} was very upset and started to {action_verb} around.
@@ -19,6 +18,5 @@ def mad_libs():
     print("\nHere is your Mad Libs story:")
     print(story)
 
-# Correcting indentation issue
 if __name__ == "__main__":
     mad_libs()
