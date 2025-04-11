@@ -65,4 +65,3 @@ def fetch_money_quotes():
 if st.button("**💸Hustle for Money Motivation**"):
     quotes = fetch_money_quotes()
     st.info(f"**{quotes}**")
-    
